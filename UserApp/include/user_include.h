@@ -8,7 +8,6 @@ extern "C"{
 #endif
 
 
-
 void Main();
 
 #ifdef __cplusplus

@@ -1,12 +1,29 @@
-#include "include/user_include.h"
+#include "user_include.h"
+#include "button.h"
 
 
-
+/*-------*NOTE*-------*/
+//  若使用FreeRTOS,将Main();放在/*USER CODE BEGIN 2*/区域并将无限循环删之
+//osThreadId_t TaskHandleScreenUpdate;
+//void ThreadScreenUpdate(void* argument){
+//    UNUSED(argument);
+//    for(;;){
+//        lv_task_handler();
+//    }
+//}
 
 void Main(){
 	
 	// init
-	
+
+	//    const osThreadAttr_t ThreadAttrScreenUpdate = {
+	//            .name = "TaskScreenUpdate",
+	//            .stack_size = 500,
+	//            .priority = (osPriority_t) osPriorityNormal
+	//    };
+	//    TaskHandleScreenUpdate = osThreadNew(ThreadScreenUpdate, nullptr,&ThreadAttrScreenUpdate);
+
+
 	for(;;){
 		// loop
 	}

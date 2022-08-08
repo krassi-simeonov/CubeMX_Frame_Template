@@ -1,0 +1,4 @@
+# debug directory
+cmake-build-debug/
+# Clion config file
+.idea/
