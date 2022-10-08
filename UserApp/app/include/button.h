@@ -5,7 +5,7 @@
 #define _BUTTON_IMPLEMENT_H_
 
 
-#include "support_config.h"
+#include "../../libs/supports/button/multi_button.h"
 
 
 enum Button_IDs {
